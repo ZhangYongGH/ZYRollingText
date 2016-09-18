@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2453C5B1D52D8E500B75980 /* ZyVerticalMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2453C5A1D52D8E500B75980 /* ZyVerticalMoveView.m */; };
 		C2E3CDF11D51C04B00EEFADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E3CDF01D51C04B00EEFADB /* main.m */; };
 		C2E3CDF41D51C04B00EEFADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E3CDF31D51C04B00EEFADB /* AppDelegate.m */; };
 		C2E3CDF71D51C04B00EEFADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E3CDF61D51C04B00EEFADB /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		C2E3CDFF1D51C04B00EEFADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E3CDFD1D51C04B00EEFADB /* LaunchScreen.storyboard */; };
 		C2E3CE0A1D51C04B00EEFADB /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E3CE091D51C04B00EEFADB /* ______Tests.m */; };
 		C2E3CE151D51C04B00EEFADB /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E3CE141D51C04B00EEFADB /* ______UITests.m */; };
+		C2E3CE241D51D04700EEFADB /* ZyHorizontalMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E3CE231D51D04700EEFADB /* ZyHorizontalMoveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2453C591D52D8E500B75980 /* ZyVerticalMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZyVerticalMoveView.h; sourceTree = "<group>"; };
+		C2453C5A1D52D8E500B75980 /* ZyVerticalMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZyVerticalMoveView.m; sourceTree = "<group>"; };
 		C2E3CDEC1D51C04B00EEFADB /* 测试滚动字幕.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试滚动字幕.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E3CDF01D51C04B00EEFADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2E3CDF21D51C04B00EEFADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		C2E3CE101D51C04B00EEFADB /* 测试滚动字幕UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试滚动字幕UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E3CE141D51C04B00EEFADB /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		C2E3CE161D51C04B00EEFADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E3CE221D51D04700EEFADB /* ZyHorizontalMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZyHorizontalMoveView.h; sourceTree = "<group>"; };
+		C2E3CE231D51D04700EEFADB /* ZyHorizontalMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZyHorizontalMoveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				C2E3CDF31D51C04B00EEFADB /* AppDelegate.m */,
 				C2E3CDF51D51C04B00EEFADB /* ViewController.h */,
 				C2E3CDF61D51C04B00EEFADB /* ViewController.m */,
+				C2E3CE221D51D04700EEFADB /* ZyHorizontalMoveView.h */,
+				C2E3CE231D51D04700EEFADB /* ZyHorizontalMoveView.m */,
+				C2453C591D52D8E500B75980 /* ZyVerticalMoveView.h */,
+				C2453C5A1D52D8E500B75980 /* ZyVerticalMoveView.m */,
 				C2E3CDF81D51C04B00EEFADB /* Main.storyboard */,
 				C2E3CDFB1D51C04B00EEFADB /* Assets.xcassets */,
 				C2E3CDFD1D51C04B00EEFADB /* LaunchScreen.storyboard */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E3CE241D51D04700EEFADB /* ZyHorizontalMoveView.m in Sources */,
 				C2E3CDF71D51C04B00EEFADB /* ViewController.m in Sources */,
 				C2E3CDF41D51C04B00EEFADB /* AppDelegate.m in Sources */,
+				C2453C5B1D52D8E500B75980 /* ZyVerticalMoveView.m in Sources */,
 				C2E3CDF11D51C04B00EEFADB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "测试滚动字幕/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gundongzimu.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "测试滚动字幕/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gundongzimu.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +512,7 @@
 				C2E3CE1B1D51C04B00EEFADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E3CE1C1D51C04B00EEFADB /* Build configuration list for PBXNativeTarget "测试滚动字幕Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				C2E3CE1E1D51C04B00EEFADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E3CE1F1D51C04B00EEFADB /* Build configuration list for PBXNativeTarget "测试滚动字幕UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				C2E3CE211D51C04B00EEFADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
